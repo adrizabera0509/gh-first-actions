@@ -1,8 +1,8 @@
 name: First Workflow
-on: workflow_dispatch //event works on manual trigger
+on: workflow_dispatch #event works on manual trigger
 jobs:
   first-job:
-    runs-on: windows-latest  //defining runner/execution environment
+    runs-on: windows-latest  #defining runner/execution environment
     steps:
       - name: Print greeting
         run: echo "Good Morning"
